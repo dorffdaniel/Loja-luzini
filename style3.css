@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header{
+    background-color: #c6b8b8;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.roupas-feminina{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #e7e7e7;
+    height: 100vh;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+
+.box-roupas{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    width: 350px;
+    height: 400px;
+
+}
+
+.box-roupas img{
+    width: 349px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.box-roupas h2{
+    color: #362c2c;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.box-roupas p{
+    color: rgb(83, 56, 61);
+    font-size: 18px;
+}

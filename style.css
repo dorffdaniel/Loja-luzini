@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+}
+
+.part-primeira{
+    background: url(img/logoback.png) no-repeat;
+    width: 100%;
+    height: 500px;
+    justify-content: flex-end;
+    gap: 300px;
+}
+
+.part-segunda{
+    background-color: rgb(96, 87, 94);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.part-segunda input{
+    height: 35px;
+    width: 500px;
+    outline: none;
+    background-color: rgb(253, 253, 253);
+    margin-top: 50px;
+    padding-left: 20px;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+.imgs-rolagem{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.imgs-rolagem img{
+    animation: rolagem-imagem 6s infinite linear;
+    overflow: hidden;
+    margin-right: 0px;
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.rolagem-1{
+    display: flex;
+}
+
+.imagem-2{
+    display: flex;
+}
+
+@keyframes rolagem-imagem {
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+.container-roupas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.box-roupas{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 450px;
+    border: 2px solid #000;
+}
+
+.box-roupas img{
+    width: 398px;
+    height: 350px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.box-roupas h2{
+    margin-bottom: 10px;
+}
+
+.img-hover{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.img-hover::after{
+    content: '';
+    background: url(img/backvestido.jpg);
+    position: absolute;
+    opacity: 0;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    transition: all 2s ease-in-out;
+}
+
+.img-hover:hover::after{
+    opacity: 1;
+} 
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+}
+
+.footer-sobre{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 450px;
+    justify-content: flex-start;
+}
+
+.footer-sobre h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.footer-sobre p{
+    font-size: 23px;
+    padding-top: 10px;
+    cursor: pointer;
+
+}
+
+.footer-sobre p:hover{
+    color: rgb(233, 71, 171);
+}

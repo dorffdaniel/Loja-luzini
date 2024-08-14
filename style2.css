@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header{
+    background-color: #898989;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.roupas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #252222;
+    height: 100vh;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+
+.box-roupas{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    width: 350px;
+    height: 400px;
+
+}
+
+.box-roupas img{
+    width: 349px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.box-roupas h2{
+    color: #898989;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.box-roupas p{
+    color: rgb(236, 224, 226);
+    font-size: 18px;
+}
