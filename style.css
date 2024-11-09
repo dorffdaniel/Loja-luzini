@@ -78,6 +78,7 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
+    background: #d3d0d0;
 }
 
 .box-roupas{
@@ -125,6 +126,7 @@
     justify-content: center;
     height: 400px;
     align-items: center;
+    background: #a3a3a3;
 }
 
 .footer-sobre{
