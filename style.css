@@ -78,6 +78,7 @@
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-evenly;
+    gap: 90px;
     background: #d3d0d0;
 }
 
@@ -100,26 +101,6 @@
     margin-bottom: 10px;
 }
 
-.img-hover{
-    position: relative;
-    display: flex;
-    cursor: pointer;
-}
-
-.img-hover::after{
-    content: '';
-    background: url(img/backvestido.jpg);
-    position: absolute;
-    opacity: 0;
-    height: 350px;
-    width: 100%;
-    background-size: cover;
-    transition: all 2s ease-in-out;
-}
-
-.img-hover:hover::after{
-    opacity: 1;
-} 
 
 .container-footer{
     display: flex;

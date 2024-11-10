@@ -11,6 +11,7 @@ Este é um projeto pessoal de uma loja virtual, desenvolvido para praticar e ape
 ## 💻 Tecnologias Utilizadas
 - HTML 
 - CSS 
+- JavaScript
 
 ## 🎯 Objetivo do Projeto
 Este projeto foi desenvolvido com o intuito de reforçar conhecimentos e explorar conceitos fundamentais do desenvolvimento de e-commerce.
