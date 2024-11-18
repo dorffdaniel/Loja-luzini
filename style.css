@@ -80,6 +80,7 @@
     justify-content: space-evenly;
     gap: 90px;
     background: #d3d0d0;
+    margin-bottom: 1rem;
 }
 
 .box-roupas{
@@ -90,12 +91,13 @@
     border: 2px solid #000;
 }
 
-.box-roupas img{
+.box-roupas .fazerTrocaImg{
     width: 398px;
     height: 350px;
     object-fit: cover;
     cursor: pointer;
 }
+
 
 .box-roupas h2{
     margin-bottom: 10px;
